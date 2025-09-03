@@ -25,7 +25,6 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
 
 
-
 // Experience Section Logo's
 import Thomas_cook_logo from './assets/company_logo/Thomas_cook_logo.webp';
 
@@ -34,16 +33,9 @@ import college_logo from './assets/education_logo/college_logo.webp';
 import school_logo from './assets/education_logo/school_logo.webp';
 
 // Project Section Logo's
-import githubdetLogo from './assets/work_logo/github_det.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
-import movierecLogo from './assets/work_logo/movie_rec.png';
-import taskremLogo from './assets/work_logo/task_rem.png';
-import npmLogo from './assets/work_logo/npm.png';
-import webverLogo from './assets/work_logo/web_dig.png';
-import cmLogo from './assets/work_logo/cm.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import removebgLogo from './assets/work_logo/remove_bg.png';
-
+import aiBg from './assets/work_logo/aiBg.png';
+import Aiimggen from './assets/work_logo/Ai SaaS.png';
+import authLogo from './assets/work_logo/authLogo.png';
 
 export const SkillsInfo = [
   {
@@ -151,32 +143,31 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "GitHub Profile Detective",
+    title: "AI Virtual Assistant",
     description:
-      "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
-    image: githubdetLogo,
-    tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-    github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
-    webapp: "https://githubprofiledetective.netlify.app/",
+    "Developed a customizable AI Virtual Assistant with personalized avatars, voice commands (Web Speech API), and Gemini API for accurate NLP-driven responses, achieving 30% faster navigation with React Router DOM. Secured with JWT + bcrypt.js, automated emails via Nodemailer, and optimized image handling using Cloudinary + Multer, supporting 100+ uploads with 25% faster load times.",
+    image: aiBg,
+    tags: ["React JS", "Node.js", "MongoDB", "Express","Gemini API","Web Speech API","Authentication","REST API"],
+    github: "https://github.com/satyamcode-ai/AI-virtual-Assistant",
+    webapp: "https://ai-virtual-assistant-ebon.vercel.app/",
   },
   {
     id: 1,
-    title: "CS Prep",
+    title: "SaaS AI Image Generator",
     description:
-      "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-    image: csprepLogo,
-    tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/CSPrep",
-    webapp: "https://csprep.netlify.app/",
+      "Built an AI-powered chatbot SaaS with image generation (100+ prompts) using MERN, integrating Gemini API + ImageKit for creative responses. Implemented a Stripe-based credit model (3 plans, 100–1000 credits), secured with JWT, automated onboarding via Nodemailer, and delivered a responsive React + Tailwind UI with light/dark themes.",
+    image: Aiimggen,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "ImageKit", "Open AI", "Gemini API","Stripe","Authentication","Nodemailer",],
+    github: "https://github.com/satyamcode-ai/AI-Img-Generator",
+    webapp: "https://ai-img-generator-client.vercel.app/",
   },
   {
     id: 2,
-    title: "Movie Recommendation App",
-    description:
-      "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
-    image: movierecLogo,
-    tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-    github: "https://github.com/codingmastr/Movie-Recommendation-App",
-    webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    title: "Complete Authentication System",
+    description:"A complete MERN-based authentication and authorization system featuring secure user registration, login, JWT-based authentication, Authorization, Email templates for receiving verification and password reset email, and secure user session management.",
+    image: authLogo,
+    tags: ["React JS", "Node.js", "MongoDB", "Express", "JWT", "Bcrypt", "NodeMailer","REST API","Email Templates"],
+    github: "https://github.com/satyamcode-ai/Complete-Authentication-and-Authorization",
+    webapp: "https://complete-authentication-and-authori.vercel.app/",
   },
 ];  
